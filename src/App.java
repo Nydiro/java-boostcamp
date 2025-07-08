@@ -19,6 +19,15 @@ public class App {
         System.out.println("Bitte geben Sie Ihr Alter ein: ");
         int ageInput = scanner.nextInt();
 
+        // if-else
+        if (ageInput >= 65) {
+            System.out.println("Du gehörst zu unseren erfahrenen Benutzern!");
+        } else if (ageInput >= 18) {
+            System.out.println("Du bist volljährig!");
+        } else {
+            System.out.println("Du bist noch minderjährig");
+        }
+
         scanner.close();
 
         System.out.println("Hallo, mein Name ist " + nameInputString + " und ich bin " + ageInput + " Jahre alt.");
