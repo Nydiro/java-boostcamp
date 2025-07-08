@@ -1,0 +1,1 @@
+1. Ein kleiner Tipp zur Reihenfolge der Bedingungen: Es ist oft sinnvoll, die spezifischsten Bedingungen zuerst zu prüfen.
