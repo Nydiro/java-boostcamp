@@ -31,5 +31,17 @@ public class App {
         scanner.close();
 
         System.out.println("Hallo, mein Name ist " + nameInputString + " und ich bin " + ageInput + " Jahre alt.");
+
+        // for-loop
+        for (int i = 0; i <= 10; i++) {
+            System.out.println(i);
+        }
+
+        for (int i = 10; i >= 0; i--) {
+            System.out.println(i);
+        }
+
+        int loopCount = scanner.nextInt();
+        
     }
 }
