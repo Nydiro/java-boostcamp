@@ -27,21 +27,24 @@ public class App {
         } else {
             System.out.println("Du bist noch minderjährig");
         }
-
-        scanner.close();
-
+        
         System.out.println("Hallo, mein Name ist " + nameInputString + " und ich bin " + ageInput + " Jahre alt.");
 
         // for-loop
         for (int i = 0; i <= 10; i++) {
             System.out.println(i);
         }
-
+        
         for (int i = 10; i >= 0; i--) {
             System.out.println(i);
         }
-
-        int loopCount = scanner.nextInt();
         
+        System.out.println("Bitte geben Sie die gewünschte Anzahl an Wiederholungen ein: ");
+        int loopCount = scanner.nextInt();
+        for(int i = 1; i <= loopCount; i++) {
+            System.out.println("Dies ist Wiederholung Nr.: " + i);
+        }
+        
+        scanner.close();
     }
 }
